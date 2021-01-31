@@ -52,7 +52,8 @@ function generateInfoKamar($data) {
 </head>
 <body>
 	<!-- input -->
-	<form method="post">
+	<form method="post" style="border: 2px solid blue;padding: 50px;">
+		<h1 align="center" style="margin: 0px;margin-bottom: 50px;">Uts Pemrograman Web</h1>
 		<table>
 			<tr>
 				<td>Nama</td>
@@ -101,8 +102,8 @@ function generateInfoKamar($data) {
 			</tr>
 			<tr>
 				<td colspan="3">
-					<button type="submit" name="simpan" value="simpan">Proses</button>
-					<button type="reset">Hapus</button>
+					<button type="submit" name="simpan" value="simpan" style="width: 40%;">Proses</button>
+					<button type="reset" style="width: 40%;">Hapus</button>
 				</td>
 			</tr>
 		</table>
@@ -113,8 +114,8 @@ function generateInfoKamar($data) {
 		<?php
 			$data = generateInfoKamar($_POST);
 		?>
-		<div style="border: 1px solid black;padding-bottom: 30px;">
-			<h3 style="text-align: center;">FLORENSIA HOTEL</h3>
+		<div style="border: 2px solid blue;padding-bottom: 30px;padding: 50px;">
+			<h1 align="center">FLORENSIA HOTEL</h1>
 			<table style="width: 100%;">
 				<tr>
 					<td>Nama</td>
